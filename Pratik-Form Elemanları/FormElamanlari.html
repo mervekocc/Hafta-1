@@ -1,0 +1,52 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Html Forms</h1>
+    <form>
+            <legend>Kişisel Bilgiler:</legend>
+            
+            <div>
+                <label for="first-name">İsim</label><br>
+                <input type="text"id="first-name" required><br><br>
+            </div>
+            <div>
+                <label for="last-name">Soyisim</label><br>
+                <input type="text"id="last-name" required><br><br>
+            </div>
+            <div>
+                <label for="gender">Cinsiyet:</label>
+                <input type="radio" name="gender" value="male"> Erkek
+                <input type="radio" name="gender" value="female">Kadın
+            </div>
+                <label for="email" >E-posta</label><br>
+                <input type="text" id="email" required><br><br>
+            </div>
+            <div>
+                <label><for="password">Parola</form> </label><br>
+                <input type="password" id="password" name="password" required><br><br>
+            </div>
+            <div>
+                <label for="message">Mesaj</label><br>
+                <textarea id="message" name="message" rows="5" cols="60" required></textarea><br><br>
+            </div>
+            <div>
+                <label for="favorite-fruit">Favori Meyve:</label><br>
+                <select id="favorite-fruit" name="favorite-fruit" required>
+                    <option value="orange">Portakal</option>
+                    <option value="apple">Elma</option>
+                    <option value="strawberyy">Çilek</option>
+                    <option value="banana">Muz</option>
+                </select><br><br>
+            </div>
+            <button type="submit">Gönder</button>
+        
+    </form>
+    
+  </body>
+  </html>
